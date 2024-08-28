@@ -1,0 +1,32 @@
+button {
+    padding: 8px 20px;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0;
+    text-wrap: nowrap;
+    cursor: pointer;
+
+    color: var(--foreground-color);
+    border: none;
+    outline: 1px solid var(--foreground-color);
+    background: var(--background-color);
+
+    &:hover {
+        background: var(--neutral-lightest);
+    }
+
+    &:active {
+        background: var(--neutral);
+    }
+
+    &[data-alternative] {
+        color: var(--background-color);
+        background: var(--foreground-color);
+        &:hover {
+            background: var(--neutral-dark);
+        }
+        &:active {
+            background: var(--neutral);
+        }
+    }
+}

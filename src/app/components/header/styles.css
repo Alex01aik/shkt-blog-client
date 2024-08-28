@@ -1,0 +1,24 @@
+header {
+    width: 100%;
+    height: 72px;
+    padding-left: var(--large-gap);
+    padding-right: var(--large-gap);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+    border-bottom: 1px solid var(--foreground-color);
+}
+
+.header-content {
+    display: flex;
+    flex-direction: row;
+    gap: var(--main-gap);
+}
+
+.header-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: var(--regular-gap);
+}

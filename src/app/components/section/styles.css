@@ -1,0 +1,5 @@
+section {
+    max-width: 1440px;
+    margin: auto;
+    padding: var(--huge-gap) var(--large-gap);
+}

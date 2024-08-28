@@ -1,0 +1,7 @@
+.post-grid {
+    width: 100%;
+    display: grid;
+    gap: var(--big-gap);
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, 405px);
+}

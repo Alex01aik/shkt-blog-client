@@ -1,0 +1,27 @@
+.special-post-card {
+    display: flex;
+    flex-direction: column;
+    gap: var(--large-gap);
+    & > img {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1312 / 738;
+    }
+}
+
+.special-post-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: var(--large-gap);
+    & > * {
+        flex: 1;
+    }
+}
+
+.special-post-content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: var(--main-gap);
+}
